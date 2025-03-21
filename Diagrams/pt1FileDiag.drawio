@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0" version="26.1.1">
+  <diagram name="Page-1" id="koOT2TZtTRQ_NC9GKiRR">
+    <mxGraphModel dx="1380" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5_maoKSMc633ezN4sI5c-28" value="Presentation" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="170" y="140" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5_maoKSMc633ezN4sI5c-29" value="Business Logic" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="170" y="270" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5_maoKSMc633ezN4sI5c-30" value="DataModel" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="170" y="400" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5_maoKSMc633ezN4sI5c-31" value="Data Access" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="480" y="270" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5_maoKSMc633ezN4sI5c-33" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=32;entryPerimeter=0;" parent="1" target="5_maoKSMc633ezN4sI5c-31" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="230" y="300" as="sourcePoint" />
+            <mxPoint x="390" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_maoKSMc633ezN4sI5c-35" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.453;entryY=-0.066;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="5_maoKSMc633ezN4sI5c-29" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="200" y="190" as="sourcePoint" />
+            <mxPoint x="360" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_maoKSMc633ezN4sI5c-36" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.453;entryY=-0.066;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="5_maoKSMc633ezN4sI5c-30" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="200" y="320" as="sourcePoint" />
+            <mxPoint x="360" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

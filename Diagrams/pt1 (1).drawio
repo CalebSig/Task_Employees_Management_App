@@ -1,0 +1,56 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0" version="26.1.0">
+  <diagram name="Page-1" id="koOT2TZtTRQ_NC9GKiRR">
+    <mxGraphModel dx="1514" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5_maoKSMc633ezN4sI5c-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5_maoKSMc633ezN4sI5c-1" target="5_maoKSMc633ezN4sI5c-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="479.9999999999998" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_maoKSMc633ezN4sI5c-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5_maoKSMc633ezN4sI5c-1" target="5_maoKSMc633ezN4sI5c-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5_maoKSMc633ezN4sI5c-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5_maoKSMc633ezN4sI5c-1" target="5_maoKSMc633ezN4sI5c-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5_maoKSMc633ezN4sI5c-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5_maoKSMc633ezN4sI5c-1" target="5_maoKSMc633ezN4sI5c-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5_maoKSMc633ezN4sI5c-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5_maoKSMc633ezN4sI5c-1" target="5_maoKSMc633ezN4sI5c-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="Project Manager" id="5_maoKSMc633ezN4sI5c-1">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+            <mxGeometry x="150" y="300" width="130" height="190" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="5_maoKSMc633ezN4sI5c-8" value="Add Empolyee" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5_maoKSMc633ezN4sI5c-9" value="Add Task" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5_maoKSMc633ezN4sI5c-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.033;entryY=0.649;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5_maoKSMc633ezN4sI5c-1" target="5_maoKSMc633ezN4sI5c-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5_maoKSMc633ezN4sI5c-15" value="Assign task" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="355" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5_maoKSMc633ezN4sI5c-20" value="Modify task status" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="470" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5_maoKSMc633ezN4sI5c-21" value="View employees and their tasks" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="580" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5_maoKSMc633ezN4sI5c-22" value="View statistics" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="700" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5_maoKSMc633ezN4sI5c-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5_maoKSMc633ezN4sI5c-22" target="5_maoKSMc633ezN4sI5c-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
