@@ -8,10 +8,11 @@ public class Main {
     public static void main(String[] args) {
 
         TasksManagement tasksManagement = SerializationOperations.deserializeData();
+        StatisticsViewAll statisticsViewAll = new StatisticsViewAll(tasksManagement);
         DashBoardView dashBoardView = new DashBoardView("", tasksManagement);
         NewEmployeeView newEmployeeView= new NewEmployeeView("");
         NewTaskView newTaskView = new NewTaskView("");
         StatisticsView statisticsView = new StatisticsView(tasksManagement);
-        Controller controller = new Controller(dashBoardView, newEmployeeView, newTaskView, statisticsView, tasksManagement);
+        Controller controller = new Controller(statisticsViewAll,dashBoardView, newEmployeeView, newTaskView, statisticsView, tasksManagement);
     }
 }

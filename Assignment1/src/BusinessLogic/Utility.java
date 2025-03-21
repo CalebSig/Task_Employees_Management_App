@@ -19,6 +19,14 @@ public class Utility {
         return employees;
     }
 
+    public static List<Employee> getWorkEmployees(TasksManagement tasksManagement) {
+        List<Employee> employees = new ArrayList<>();
+        for (Employee employee : tasksManagement.getMap().keySet()) {
+            employees.add(employee);
+        }
+        return employees;
+    }
+
     public static Map<String, Map<String, Integer>> calculateCompletedAndUncompletedTasks(TasksManagement tasksManagement) {
         Map<String, Map<String, Integer>> completedAndUncompletedTasks = new HashMap<>();
         for (Employee employee : tasksManagement.getMap().keySet()) {

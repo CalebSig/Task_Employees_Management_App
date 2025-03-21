@@ -10,7 +10,7 @@ import java.awt.*;
 import java.util.List;
 import java.util.Map;
 
-public class StatisticsView extends JFrame {
+public class StatisticsViewAll extends JFrame {
 
     private JTable table;
     private DefaultTableModel tableModel;
@@ -18,9 +18,9 @@ public class StatisticsView extends JFrame {
 
     private String[] columnNames = {"Id_employee", "Name", "Work duration", "Completed Tasks", "Uncompleted Tasks"};
 
-    public StatisticsView(TasksManagement tasksManagement) {
+    public StatisticsViewAll(TasksManagement tasksManagement) {
         this.tasksManagement = tasksManagement;
-        setTitle("Best Employee Statistics");
+        setTitle("Employee Statistics");
         setSize(600, 400);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -35,7 +35,7 @@ public class StatisticsView extends JFrame {
     }
 
     public void populateTable() {
-        List<Employee> filteredEmployees = Utility.filterEmployees(tasksManagement);
+        List<Employee> filteredEmployees = Utility.getWorkEmployees(tasksManagement);
         filteredEmployees.sort((e1, e2) -> Integer.compare(
                 tasksManagement.calculateEmployeeWorkDuration(e1.getIdEmployee()),
                 tasksManagement.calculateEmployeeWorkDuration(e2.getIdEmployee())

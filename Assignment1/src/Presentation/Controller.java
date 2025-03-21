@@ -19,13 +19,15 @@ public class Controller {
     private NewEmployeeView newEmployeeView;
     private NewTaskView newTaskView;
     private StatisticsView statisticsView;
+    private StatisticsViewAll statisticsViewAll;
 
-    public Controller(DashBoardView dashBoardView, NewEmployeeView newEmployeeView, NewTaskView newTaskView, StatisticsView statisticsView, TasksManagement tasksManagement) {
+    public Controller(StatisticsViewAll statisticsViewAll,DashBoardView dashBoardView, NewEmployeeView newEmployeeView, NewTaskView newTaskView, StatisticsView statisticsView, TasksManagement tasksManagement) {
         this.dashBoardView = dashBoardView;
         this.newEmployeeView = newEmployeeView;
         this.newTaskView = newTaskView;
         this.statisticsView = statisticsView;
         this.tasksManagement = tasksManagement;
+        this.statisticsViewAll = statisticsViewAll;
 
         dashBoardView.addButtonNewEmployeeListener(ActionListener -> newEmployeeView.setVisible(true));
         dashBoardView.addButtonNewTaskListerner(ActionListener -> {
@@ -35,6 +37,8 @@ public class Controller {
         dashBoardView.addButtonViewStatisticsListener(ActionListener -> {
             statisticsView.populateTable();
             statisticsView.setVisible(true);
+            statisticsViewAll.populateTable();
+            statisticsViewAll.setVisible(true);
         });
         dashBoardView.addButtonModifyTaskStatusListener(new ModifyStatusButton());
         dashBoardView.addButtonAssignTask(new ButtonAssignTask() );
